@@ -1,0 +1,373 @@
+/*Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	  overflow-x: hidden;
+	  max-width: 2480px;
+	  margin-right: auto;
+	  margin-left: auto;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Poppins', sans-serif;
+}
+
+h3{
+	font-size: 2.5em;
+}
+
+/*Geral*/
+.Container{
+	margin: 50px 120px;
+}
+
+
+.margin-top{
+	margin-top: 180px;
+}
+
+.margin-bottom{
+	margin-bottom: 120px;
+}
+
+/*Navegação*/
+.logo{
+	width: 240px;
+	height: 60px;
+	text-indent: -3000px;
+	background: url(../images/logo.svg) no-repeat center;
+}
+
+.btn-lg{
+	border-radius: 50px;
+}
+
+.btn-outline-light{
+	color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+}
+
+.btn-outline-light:hover{
+	color: white;
+	background: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+}
+
+/*INTRO*/
+.intro{
+	text-align: center;
+}
+
+.btn-pink{
+	color: white;
+	background: hsl(322, 100%, 66%);
+	padding: 20px 80px;
+}
+
+.btn-pink:hover{
+	color: hsl(322, 100%, 66%);
+	background: white;
+	border-color: hsl(322, 100%, 66%);
+}
+
+.pad{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.messages{
+	background-image: url(../images/icon-messages.svg);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	width: 50px;
+	height: 40px;
+}
+
+.communities{
+	background-image: url(../images/icon-communities.svg);
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	width: 50px;
+	height: 40px;
+}
+
+.h1{
+	font-size: 4em;
+	font-weight: bolder;
+}
+
+.text-secondary{
+	font-size: 1.6em;
+}
+
+/*Detalhes*/
+.top{
+	background: url(../images/bg-section-top-desktop-1.svg) bottom center no-repeat;
+}
+.alternate-top{
+	background: url(../images/bg-section-top-desktop-2.svg) bottom center no-repeat;
+}
+
+
+
+.bottom{
+	background: url(../images/bg-section-bottom-desktop-1.svg) top center no-repeat;
+	background-size: 100%;
+	margin: 0px;
+}
+
+.bottom-alternate{
+	background: url(../images/bg-section-bottom-desktop-2.svg) top center no-repeat;
+	background-size: 110%;
+	padding-top: 350px;	
+}
+
+.bg{
+	background-color: hsl(207, 100%, 98%);
+	padding: 50px 120px;
+}
+
+.pt{
+	padding-top: 200px;
+}
+
+section{
+	width: 100%;
+}
+
+/*Rodape*/
+.footer-bg{
+	background: url(../images/bg-footer-top-desktop.svg) bottom no-repeat;
+}
+
+footer{
+	background: hsl(192, 100%, 9%);
+}
+
+
+
+.size{
+	font-size: 55px;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	color: white;
+}
+
+.background{
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+}
+
+.btn-subs{
+	color: white;
+	background: hsl(322, 100%, 66%);
+	padding: 10px 35px;
+}
+
+.w-md-50{
+	width: 50%;
+}
+/*Media Queries*/
+/*Extra small devices (portrait phones, menor que 576px)*/
+        @media (max-width: 575.98px) {
+        	.logo{
+        		width: 50%;
+        		background-size: 100%;
+        	}
+
+        	.bg{
+            	padding:  50px 35px;
+            }
+
+        	.Container{
+            	padding: 0px;
+            	margin: 0px;
+            }
+
+            .pt{
+            	padding-top: 80px;
+            }
+
+            .contato{
+            	width: 100%;
+            	margin-right: auto;
+            	margin-left: auto;
+            }
+            .footer{
+            	flex-direction: column;
+            	text-align: center;
+            }
+
+            .h1, h2{
+            	font-size: 1.8em;
+            }
+
+            h3{
+            	font-size: 1.6em;
+            }
+
+            h4{
+            	font-size: 1.2em;
+            }
+
+            p{
+            	font-size: 1.2em;
+            }
+
+            .btn{
+            	font-size: 1em;
+            }
+        }
+
+        /*Small devices (landscape phones, 576px e maiores)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+           .Container{
+            	padding: 0px;
+            	margin: 0px;
+            }
+
+            .bg{
+            	padding:  50px 35px;
+            }
+
+            .pt{
+            	padding-top: 180px;
+            }
+
+            .contato{
+            	width: 100%;
+            	margin-right: auto;
+            	margin-left: auto;
+            }
+            .footer{
+            	flex-direction: column;
+            	text-align: center;
+            }
+
+             .h1, h2{
+            	font-size: 2em;
+            }
+
+            h3{
+            	font-size: 1.8em;
+            }
+
+            h4{
+            	font-size: 1.4em;
+            }
+
+            p{
+            	font-size: 1.3em;
+            }
+
+            .btn{
+            	font-size: 1em;
+            }
+        }
+
+        /*Medium devices (tablets, 768px e maiores)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+      		footer{
+      			padding-top: 50px;
+      			margin-top: 0px;
+      		}
+
+            .contato{
+            	width: 100%;
+            	margin-right: auto;
+            	margin-left: auto;
+            }
+            .footer{
+            	flex-direction: column;
+            	text-align: center;
+            }
+
+             .h1, h2{
+            	font-size: 3.2em;
+            }
+
+            h3{
+            	font-size: 2.2em;
+            }
+
+            h4{
+            	font-size: 1.8em;
+            }
+
+            p{
+            	font-size: 1.6em;
+            }
+
+            .btn{
+            	font-size: 1.4em;
+            }
+        }
+
+        /*Large devices (desktops, 992px e maiores)*/
+        /*CHECK*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .h1, h2{
+            	font-size: 3.3em;
+            }
+
+            h3{
+            	font-size: 2.6em;
+            }
+
+            h4{
+            	font-size: 2.0em;
+            }
+
+            p{
+            	font-size: 1.6em;
+            }
+
+            .w-md-50{
+            	width: 75%;
+            }
+        }
+
+        /*Extra large devices (large desktops, 1200px  e maiores)*/
+        @media (min-width: 1200px) {
+           
+        }
+
+        /*Backgrounds*/
+        @media (max-width: 991.98px){
+        	.top{
+				background: url(../images/bg-section-top-mobile-1.svg) bottom center no-repeat;
+				background-size: 110%;
+			}
+			.alternate-top{
+				background: url(../images/bg-section-top-mobile-2.svg) bottom center no-repeat;
+				background-size: 110%;
+			}
+
+			.bottom{
+				background: url(../images/bg-section-bottom-mobile-1.svg) top center no-repeat;
+				background-size: 100%;
+				margin: 0px;
+			}
+
+			.bottom-alternate{
+				background: url(../images/bg-section-bottom-mobile-2.svg) top center no-repeat;
+				background-size: 110%;
+				padding-top: 350px;	
+			}
+
+			.footer-bg{
+				background: url(../images/bg-footer-top-mobile.svg) bottom no-repeat;
+				background-size: 110%;
+			}
+
+			.w-md-50{
+				width: auto;
+			}
+        }
